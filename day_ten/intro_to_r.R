@@ -30,3 +30,23 @@ paste(text1, text2, sep = " ")
 var1 <- var2 <- var3 <- "Casually causing casuality."
 class(var1)
 typeof(var2)
+# complex variable types in R
+x <- 3 + 5i
+print(x)
+typeof(x)
+class(x)
+# type conversion - as.integer(); as.numeric(); as.complex
+x <- 1L
+class(x)
+y <- 2
+class(y)
+a <- as.numeric(x)
+class(a)
+b <- as.integer(y)
+class(b)
+c <- as.complex(x)
+print(c)
+typeof(c)
+z = 3.4
+type.convert
+z
